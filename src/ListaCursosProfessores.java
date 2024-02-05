@@ -53,14 +53,14 @@ public class ListaCursosProfessores {
 
     //Função para adicionar um curso
     public static void addCurso(Scanner entrada, ArrayList<String> listaCurso) {
-        System.out.print("Informe o curso: ");
+        System.out.print("Informe o nome do curso: ");
         String curso = entrada.next();
         listaCurso.add(curso);
     }
 
     //Função para adicionar um professor
     public static void addProf(Scanner entrada, ArrayList<String> listaProf) {
-        System.out.print("Informe o curso: ");
+        System.out.print("Informe o nome do professor: ");
         String prof = entrada.next();
         listaProf.add(prof);
     }
